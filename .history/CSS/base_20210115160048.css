@@ -8,12 +8,5 @@
 .body{
     font-family:  Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     color: #495057;
-    min-width: 1280px;
 }
-/* 设置一个类，用来表示中间容器的宽度 */
-.w{
-    /* 固定容器的宽度 */
-    width: 1280px;
-    /* 设置容器居中 */
-    margin: 0 auto;
-}
+/* 设置一个类，用来biao shi */
