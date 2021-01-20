@@ -1,0 +1,26 @@
+/* 主页index样式表 */
+
+.announcement-bar{
+    text-align: center;
+    background-color: #ff6700;
+    padding:10px;
+}
+.topbar-wrapper {
+    /* 设置宽度为全屏 */
+    width: 100%;
+    /* 设置高度和行高 */
+    height: 40px;
+    line-height: 40px;
+    /* 设置背景颜色 */
+    background-color: #333333;
+}
+/* 设置左侧导航栏 */
+.service, .topbar li {
+
+    float: left;
+}
+/* 中间这个逗号是非常关键的，没有它，下边这条指令就不存在 */
+
+.shop-cart ,.user-info{
+    float: right;
+}

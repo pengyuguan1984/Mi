@@ -24,7 +24,7 @@
 .topbar a:hover{
     color: #fff;
 }
-/* 设置中间分隔线 */
+/* 设置中间分隔xian */
 .topbar .line{
     font-size: 12px;
     color: #424242;
@@ -39,20 +39,4 @@
 /* 设置右侧导航栏 */
 .shop-cart ,.user-info{
     float: right;
-}
-.shop-cart{
-    margin-left: 26px;
-}
-/* 设置购物车的样式 */
-.shop-cart a{
-    width: 120px;
-    background-color: #424242;
-    text-align: center;
-}
-.shop-cart:hover a{
-    background-color: #fff;
-    color: #ff6700;
-}
-.shop-cart i{
-    margin-right: 2px;
 }

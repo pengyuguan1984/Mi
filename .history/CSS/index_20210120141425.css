@@ -40,9 +40,6 @@
 .shop-cart ,.user-info{
     float: right;
 }
-.shop-cart{
-    margin-left: 26px;
-}
 /* 设置购物车的样式 */
 .shop-cart a{
     width: 120px;
