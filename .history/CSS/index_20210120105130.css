@@ -1,0 +1,14 @@
+/* 主页index样式表 */
+
+.announcement-bar{
+    text-align: center;
+    background-color: #ff6700;
+    padding:10px;
+}
+.topbar-wrapper {
+    /* 设置宽度为全屏 */
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #333333;
+}

@@ -15,7 +15,7 @@
     background-color: #333333;
 }
 /* 设置左侧导航栏 */
-.service, .topbar li{
+.service， topbar li{
 
     float: left;
 }

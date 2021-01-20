@@ -14,12 +14,3 @@
     /* 设置背景颜色 */
     background-color: #333333;
 }
-/* 设置左侧导航栏 */
-.service, .topbar li{
-
-    float: left;
-}
-/* 中间这个逗号是非常关键的，没有它，下边这条指令就不存在 */
-.shop-cart ,.user-info{
-    float: right;
-}
