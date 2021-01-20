@@ -44,14 +44,13 @@
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, .3); 
 }
-/* 设置二维码的图片 */
+
 .app .qrcode img{
     /* 因为是四方形，所以设置完宽度，高度自动就生成了 */
     width: 90px;
     margin: 17px 17px;
     margin-bottom: 10px;
 }
-/* 设置二维码中的文字 */
 .app .qrcode span{
     color: #000;
     font-size: 14px;
