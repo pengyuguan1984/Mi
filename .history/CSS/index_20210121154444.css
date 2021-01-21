@@ -44,7 +44,6 @@
     height: 0;
     /* 设置四个方向的边框 */
     border: 10px solid transparent;
-    
 }
 /* 设置下载app的下拉 */
 .app .qrcode{
