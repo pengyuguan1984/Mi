@@ -115,15 +115,12 @@ li:hover>.app::after{
 /* 设置中间的header */
 .header{
     height: 100px;
-    background-color: #bbffaa;
-    
 }
 .header .logo{
     float: left;
-    margin-top: 22px;
 }
 .header .logo a{
-    display: block;
+    dis
     width: 55px;
     height: 55px;
     background-color: red;

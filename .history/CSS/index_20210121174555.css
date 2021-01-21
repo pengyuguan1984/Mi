@@ -40,6 +40,7 @@
 }
 /* 设置app下的小三角 */
 li:hover>.app::after{
+    
     content:'';
     /* 设置绝对定位 */
     position: absolute;
@@ -67,15 +68,13 @@ li:hover>.app::after{
     left: 22px;
     width: 124px;
    height: 0px;
-   /* 这一条语句非常重要，没有它就不会隐藏 */
-   overflow: hidden;
     margin-left: -62px;
     line-height: 1;
     text-align: center;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, .3); 
-  /* transition用于为样式设置过渡效果，一般情况下0.3秒就足够了 */  
-  transition: 0.3s;
+  /* transition用于为样式设置过渡效果 */  
+  transition: 3s;
 }
 
 /* 设置二维码的图片 */
@@ -110,21 +109,4 @@ li:hover>.app::after{
 }
 .shop-cart i{
     margin-right: 2px;
-}
-
-/* 设置中间的header */
-.header{
-    height: 100px;
-    background-color: #bbffaa;
-    
-}
-.header .logo{
-    float: left;
-    margin-top: 22px;
-}
-.header .logo a{
-    display: block;
-    width: 55px;
-    height: 55px;
-    background-color: red;
 }

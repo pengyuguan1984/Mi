@@ -40,6 +40,7 @@
 }
 /* 设置app下的小三角 */
 li:hover>.app::after{
+    
     content:'';
     /* 设置绝对定位 */
     position: absolute;
@@ -110,21 +111,4 @@ li:hover>.app::after{
 }
 .shop-cart i{
     margin-right: 2px;
-}
-
-/* 设置中间的header */
-.header{
-    height: 100px;
-    background-color: #bbffaa;
-    
-}
-.header .logo{
-    float: left;
-    margin-top: 22px;
-}
-.header .logo a{
-    display: block;
-    width: 55px;
-    height: 55px;
-    background-color: red;
 }
