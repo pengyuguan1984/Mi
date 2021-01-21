@@ -39,8 +39,8 @@
     position: relative;
 }
 /* 设置app下的小三角 */
-li:hover>.app::after{
-    
+.app::after{
+    display: none;
     content:'';
     /* 设置绝对定位 */
     position: absolute;
@@ -57,7 +57,7 @@ li:hover>.app::after{
     margin: auto;
 }
 li:hover >.app .qrcode{
-    display: block;
+    dis
 }
 /* 设置下载app的下拉 */
 .app .qrcode{

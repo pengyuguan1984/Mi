@@ -39,8 +39,7 @@
     position: relative;
 }
 /* 设置app下的小三角 */
-li:hover>.app::after{
-    
+.app::after{
     content:'';
     /* 设置绝对定位 */
     position: absolute;
@@ -56,17 +55,11 @@ li:hover>.app::after{
     right: 0;
     margin: auto;
 }
-li:hover >.app .qrcode{
-    display: block;
-}
 /* 设置下载app的下拉 */
 .app .qrcode{
-    display: none;
-    position: absolute;
-    left: 22px;
+    posti;
     width: 124px;
     height: 148px;
-    margin-left: -62px;
     line-height: 1;
     text-align: center;
     background-color: #fff;

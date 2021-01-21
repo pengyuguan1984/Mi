@@ -39,8 +39,8 @@
     position: relative;
 }
 /* 设置app下的小三角 */
-li:hover>.app::after{
-    
+li.app::after{
+    display: none;
     content:'';
     /* 设置绝对定位 */
     position: absolute;
